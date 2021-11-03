@@ -1,0 +1,44 @@
+.navbar,
+.navbar-links-cont,
+.social-buttons-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  height: 72px;
+  width: 100%;
+}
+
+.logo-cont {
+  margin-left: 64px;
+}
+
+.logo-cont p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-links-cont li {
+  margin: 16px;
+}
+
+.social-buttons-cont li {
+  margin: 20px;
+}
+
+h2 {
+  color: #120055;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
