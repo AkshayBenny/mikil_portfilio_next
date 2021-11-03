@@ -49,5 +49,12 @@
   font-weight: bold;
   font-size: 14px;
   color: #120055;
-  margin-top: 8px;
+  margin-top: 16px;
+  border: #120055 solid 1px;
+  padding: 12px 32px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }

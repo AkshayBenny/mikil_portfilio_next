@@ -7,7 +7,6 @@
 .creative-cards-cont-row-one,
 .creative-cards-cont-row-two {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   width: 100%;
