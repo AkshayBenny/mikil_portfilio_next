@@ -20,6 +20,15 @@
   font-size: 14px;
 }
 
+.logo-one,
+.logo-three {
+  color: #613ee2;
+}
+
+.logo-two {
+  color: #120055;
+}
+
 li {
   list-style: none;
 }
@@ -30,6 +39,10 @@ li {
 
 .social-buttons-cont li {
   margin: 20px;
+}
+
+.social-buttons-cont {
+  margin-right: 47px;
 }
 
 h2 {
