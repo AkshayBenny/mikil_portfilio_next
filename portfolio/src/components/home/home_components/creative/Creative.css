@@ -1,0 +1,25 @@
+.creative-cont {
+  width: 564px;
+  height: 433px;
+}
+
+.details-cont,
+.creative-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.creative-cont img {
+  object-fit: cover;
+  height: 314px;
+  width: 100%;
+}
+
+.details-cont {
+  margin-top: 16px;
+}
+
+.details-cont p {
+  margin-bottom: 8px;
+}
