@@ -3,3 +3,41 @@
   flex-direction: column;
   align-items: center;
 }
+
+.creative-cards-cont-row-one,
+.creative-cards-cont-row-two {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 1081px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #120055;
+}
+
+.portfolio-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  color: #613ee2;
+  margin-top: 279px;
+  margin-bottom: 16px;
+}
+
+.portfolio-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1081px;
+  margin-bottom: 72px;
+}

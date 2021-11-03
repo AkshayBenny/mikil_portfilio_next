@@ -11,7 +11,19 @@ function Home() {
       <Header />
       <Heading />
       <Subheading />
-      <Creative />
+
+      <div className="portfolio-cont">
+        <p className="portfolio-heading">Portfolio</p>
+        <h2>Creative Works</h2>
+      </div>
+      <div className="creative-cards-cont-row-one">
+        <Creative />
+        <Creative />
+      </div>
+      <div className="creative-cards-cont-row-two">
+        <Creative />
+        <Creative />
+      </div>
     </div>
   );
 }

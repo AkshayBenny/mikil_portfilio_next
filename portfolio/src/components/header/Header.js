@@ -14,16 +14,16 @@ function Header() {
       <div className="navbar-list-cont">
         <ul className="navbar-links-cont">
           <li>
-            <h2>Home</h2>
+            <p>Home</p>
           </li>
           <li>
-            <h2>Portfolio</h2>
+            <p>Portfolio</p>
           </li>
           <li>
-            <h2>About</h2>
+            <p>About</p>
           </li>
           <li>
-            <h2>Contact</h2>
+            <p>Contact</p>
           </li>
         </ul>
       </div>

@@ -9,6 +9,7 @@
 .navbar {
   height: 72px;
   width: 100%;
+  /* border-bottom: #f1edff solid 1px; */
 }
 
 .logo-cont {
@@ -45,7 +46,7 @@ li {
   margin-right: 47px;
 }
 
-h2 {
+.navbar-links-cont p {
   color: #120055;
 
   font-size: 14px;

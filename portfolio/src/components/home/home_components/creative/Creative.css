@@ -1,6 +1,7 @@
 .creative-cont {
   width: 564px;
   height: 433px;
+  margin: 28px;
 }
 
 .details-cont,
@@ -14,6 +15,11 @@
   object-fit: cover;
   height: 314px;
   width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .details-cont {
@@ -22,4 +28,26 @@
 
 .details-cont p {
   margin-bottom: 8px;
+}
+
+.cheading {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  color: #000000;
+}
+
+.csubheading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+
+.clink {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #120055;
+  margin-top: 8px;
 }
