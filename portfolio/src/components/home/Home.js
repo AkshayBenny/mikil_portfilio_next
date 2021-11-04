@@ -4,6 +4,7 @@ import Header from "../header/Header";
 import Heading from "./home_components/heading/Heading";
 import Subheading from "./home_components/subheading/Subheading";
 import Creative from "./home_components/creative/Creative";
+import Other from "./home_components/other/Other";
 
 function Home() {
   return (
@@ -41,6 +42,7 @@ function Home() {
         />
       </div>
       <h2>What Else I do ?</h2>
+      <Other />
     </div>
   );
 }
