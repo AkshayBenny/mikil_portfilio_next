@@ -1,3 +1,7 @@
+.other-cont {
+  position: relative;
+}
+
 .other-cont img {
   width: 368px;
   height: 240px;
@@ -7,16 +11,16 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   object-fit: cover;
-  position: relative;
-  z-index: -1;
 }
 
 .other-details {
   position: absolute;
-  bottom: 24px;
-  left: 12px;
+  bottom: 16px;
+  left: 16px;
   z-index: 100;
   color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
 }
 
 .other-details p {
@@ -27,4 +31,10 @@
   letter-spacing: -0.5px;
 
   color: #ffffff;
+}
+
+.other-details svg {
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
 }
