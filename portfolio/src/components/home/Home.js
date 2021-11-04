@@ -40,6 +40,7 @@ function Home() {
           subname="Freelance Project"
         />
       </div>
+      <h2>What Else I do ?</h2>
     </div>
   );
 }
