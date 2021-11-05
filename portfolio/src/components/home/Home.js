@@ -5,6 +5,7 @@ import Heading from "./home_components/heading/Heading";
 import Subheading from "./home_components/subheading/Subheading";
 import Creative from "./home_components/creative/Creative";
 import Other from "./home_components/other/Other";
+import Footer from "../footer/Footer";
 
 function Home() {
   return (
@@ -12,7 +13,6 @@ function Home() {
       <Header />
       <Heading />
       <Subheading />
-
       <div className="portfolio-cont">
         <p className="portfolio-heading">Portfolio</p>
         <h2>Creative Works</h2>
@@ -55,6 +55,7 @@ function Home() {
           name="Logos"
         />
       </div>
+      <Footer />
     </div>
   );
 }
