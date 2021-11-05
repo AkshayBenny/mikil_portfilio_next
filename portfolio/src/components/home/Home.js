@@ -42,12 +42,18 @@ function Home() {
       </div>
       <h2>What Else I do ?</h2>
       <div className="other-cont-main">
-        <Other />
-        <Other />
-        <Other />
-        <Other />
-        <Other />
-        <Other />
+        <Other
+          img="https://images.unsplash.com/photo-1615039070221-3a54a54bf71a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+          name="Illustrations"
+        />
+        <Other
+          img="https://images.unsplash.com/photo-1635958030830-f0bbd21d919c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80"
+          name="Posters"
+        />
+        <Other
+          img="https://images.unsplash.com/photo-1635817301822-0f6fe9a4c0b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+          name="Logos"
+        />
       </div>
     </div>
   );

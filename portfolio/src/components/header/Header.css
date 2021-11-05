@@ -9,7 +9,10 @@
 .navbar {
   height: 72px;
   width: 100%;
-  /* border-bottom: #f1edff solid 1px; */
+  position: sticky;
+  top: 0;
+  background: rgba(254, 254, 254, 0.7);
+  backdrop-filter: blur(16px);
 }
 
 .logo-cont {

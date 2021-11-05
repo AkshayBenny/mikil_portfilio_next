@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import { Navbar } from "responsive-navbar-react";
+import "responsive-navbar-react/dist/index.css";
 
 function Header() {
   return (

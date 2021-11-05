@@ -4,6 +4,7 @@ h2 {
   font-size: 40px;
   letter-spacing: -1px;
   color: #120055;
+  text-align: center;
 }
 
 .portfolio-heading {
@@ -38,4 +39,8 @@ h2 {
 
 .other-cont-main > * {
   margin: 12px;
+}
+
+.creative-cards-cont:nth-child(3n + 0) {
+  height: 20px;
 }

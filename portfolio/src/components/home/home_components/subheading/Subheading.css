@@ -1,32 +1,18 @@
 .subheading-cont {
-  width: 868px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .subheading-cont p {
-  position: static;
-  width: 868px;
-  height: 66px;
-  left: 6px;
-  top: 168px;
-
-  /* Body Large */
-
-  font-family: Work Sans;
+  max-width: 868px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 165%;
-  /* or 33px */
-
   text-align: center;
-
   color: rgba(0, 0, 0, 0.64);
-
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin: 36px 0px;
 }

@@ -1,15 +1,12 @@
 import React from "react";
 import "./Other.css";
 
-function Other() {
+function Other(props) {
   return (
     <div className="other-cont">
-      <img
-        src="https://images.unsplash.com/photo-1615039070221-3a54a54bf71a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-        alt="img"
-      />
+      <img src={props.img} alt="img" />
       <div className="other-details">
-        <p>Illustrations</p>
+        <p>{props.name}</p>
         <svg
           width="24"
           height="24"
