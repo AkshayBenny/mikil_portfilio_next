@@ -7,11 +7,13 @@ import Creative from "./home_components/creative/Creative";
 import Other from "./home_components/other/Other";
 import Footer from "../footer/Footer";
 import About from "../about/About";
+import Navbar from "../header/Navbar/Navbar";
 
 function Home() {
   return (
     <div className="home-cont">
-      <Header />
+      <Navbar />
+      {/* <Header /> */}
       <Heading />
       <Subheading />
       <div className="portfolio-cont">
