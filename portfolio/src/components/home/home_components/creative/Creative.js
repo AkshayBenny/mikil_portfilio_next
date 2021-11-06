@@ -8,9 +8,8 @@ function Creative(props) {
       <div className="details-cont">
         <p className="cheading">{props.name}</p>
         <p className="csubheading">{props.subname}</p>
-        <a href="#">
-          <p className="clink">Read More</p>
-        </a>
+
+        <p className="clink">Read More</p>
       </div>
     </div>
   );

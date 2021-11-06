@@ -1,12 +1,10 @@
 import React from "react";
 import "./Header.css";
-import { Navbar } from "responsive-navbar-react";
-import "responsive-navbar-react/dist/index.css";
 
 function Header() {
   return (
     <div className="navbar">
-      <div className="logo-cont">
+      {/* <div className="logo-cont">
         <p className="logo">
           <span className="logo-one">Sree</span>
           <span className="logo-two">mikiL</span>
@@ -88,7 +86,7 @@ function Header() {
             </svg>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
