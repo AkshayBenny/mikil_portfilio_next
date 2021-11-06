@@ -33,10 +33,14 @@ h2 {
   justify-content: center;
 }
 
+.other-heading {
+  margin-top: 120px;
+}
 .other-cont-main {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 120px;
 }
 .other-cont-main > * {
   margin: 12px;

@@ -6,6 +6,7 @@ import Subheading from "./home_components/subheading/Subheading";
 import Creative from "./home_components/creative/Creative";
 import Other from "./home_components/other/Other";
 import Footer from "../footer/Footer";
+import About from "../about/About";
 
 function Home() {
   return (
@@ -40,7 +41,7 @@ function Home() {
           subname="Freelance Project"
         />
       </div>
-      <h2>What Else I do ?</h2>
+      <h2 className="other-heading">What Else I do ?</h2>
       <div className="other-cont-main">
         <Other
           img="https://images.unsplash.com/photo-1615039070221-3a54a54bf71a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
@@ -55,6 +56,7 @@ function Home() {
           name="Logos"
         />
       </div>
+      <About />
       <Footer />
     </div>
   );
