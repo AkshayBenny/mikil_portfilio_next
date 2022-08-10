@@ -23,8 +23,8 @@ const Header = () => {
     <motion.header
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className={`relative z-10 ${
-        isOpen ? 'bg-white dark:bg-black' : 'bg-none'
+      className={`relative z-10 bg-white ${
+        isOpen ? ' dark:bg-black' : 'bg-none'
       }`}
     >
       <div className='w-full h-[72px]  items-center justify-between  z-50 lg:px-16 px-6 flex '>
