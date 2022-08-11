@@ -8,7 +8,7 @@ const Other = () => {
           What Else I Do?
         </h1>
         <Link href='/'>
-          <div className='border-b border-black pb-[27px] lg:pb-6 border-opacity-[4%] w-full flex items-center justify-between'>
+          <div className='border-b border-black py-[27px] lg:py-6 border-opacity-[4%] w-full flex items-center justify-between'>
             <p className='font-bold text-[28px] text-black opacity-[16%] lg:text-[56px]'>
               Illustration
             </p>
@@ -16,7 +16,7 @@ const Other = () => {
           </div>
         </Link>
         <Link href='/'>
-          <div className='border-b border-black border-opacity-[4%] pb-[27px] lg:pb-6 w-full flex items-center justify-between'>
+          <div className='border-b border-black border-opacity-[4%] py-[27px] lg:py-6 w-full flex items-center justify-between'>
             <p className='font-bold text-[28px] text-black opacity-[16%] lg:text-[56px]'>
               Posters
             </p>
@@ -24,7 +24,7 @@ const Other = () => {
           </div>
         </Link>
         <Link href='/'>
-          <div className='border-b border-black border-opacity-[4%] pb-[27px] lg:pb-6 w-full flex items-center justify-between'>
+          <div className='border-b border-black border-opacity-[4%] py-[27px] lg:py-6 w-full flex items-center justify-between'>
             <p className='font-bold text-[28px] text-black opacity-[16%] lg:text-[56px]'>
               Logos
             </p>

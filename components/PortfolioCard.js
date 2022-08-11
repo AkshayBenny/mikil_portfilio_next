@@ -3,7 +3,7 @@ import Link from 'next/link'
 const PortfolioCard = ({ title, desc, link, image, order }) => {
   return (
     <div
-      className={`lg:flex   items-center justify-center gap-8 px-[40px] lg:px-16 ${
+      className={`lg:flex items-center justify-center gap-8 px-[40px] lg:px-16 ${
         order % 2 === 0 && 'flex-row-reverse'
       }`}
     >
@@ -16,10 +16,10 @@ const PortfolioCard = ({ title, desc, link, image, order }) => {
         <h1 className='font-medium lg:font-semibold text-[18px] lg:text-[16px] text-black pb-4'>
           CASE STUDY
         </h1>
-        <h2 className='font-semibold text-[20px] lg:text-[32px] text-dark-blue pb-6'>
+        <h2 className='font-semibold text-[20px] lg:text-[32px] tracking-[-0.5px] text-dark-blue pb-6'>
           {title}
         </h2>
-        <p className='text-[20px] opacity-[48%] pb-8'>{desc}</p>
+        <p className='text-[20px] opacity-[48%] pb-8 leading-[33px]'>{desc}</p>
         <Link href={link}>
           <button className='flex items-center justify-center gap-[17px] border border-light-gray rounded-lg px-6 py-[19px] font-bold text-sm lg:text-base text-dark-blue'>
             <p>View more</p>
