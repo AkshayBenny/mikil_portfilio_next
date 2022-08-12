@@ -7,6 +7,7 @@ import Twitter from '../public/logos/twitter-fill.svg'
 import Linkedin from '../public/logos/linkedin-fill.svg'
 import Image from 'next/image'
 import ThemeToggleButton from './ThemeToggleButton'
+import Link from 'next/link'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -29,9 +30,13 @@ const Header = () => {
     >
       <div className='w-full h-[72px]  items-center justify-between  z-50 lg:px-16 px-6 flex '>
         <div>
-          <div className='dark:hidden grid'>
-            <p className='text-dark-blue font-semibold text-base'>SreemikiLt</p>
-          </div>
+          <Link href='/'>
+            <div className='dark:hidden grid cursor-pointer'>
+              <p className='text-dark-blue font-semibold text-base'>
+                SreemikiLt
+              </p>
+            </div>
+          </Link>
           <div className='dark:grid hidden'>
             <Image
               src='/vercel.svg'

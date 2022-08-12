@@ -7,24 +7,24 @@ const Other = () => {
         <h1 className='text-lg lg:text-2xl text-light-blue pb-12 lg:pb-[72px]'>
           What Else I Do?
         </h1>
-        <Link href='/'>
-          <div className='border-b border-black py-[27px] lg:py-6 border-opacity-[4%] w-full flex items-center justify-between'>
+        <Link href='/illustrations'>
+          <div className='cursor-pointer border-b border-black py-[27px] lg:py-6 border-opacity-[4%] w-full flex items-center justify-between'>
             <p className='font-bold text-[28px] text-black opacity-[16%] lg:text-[56px]'>
               Illustration
             </p>
             <ArrowNarrowRightIcon className='h-6 w-6 text-dark-blue opacity-[16%]' />
           </div>
         </Link>
-        <Link href='/'>
-          <div className='border-b border-black border-opacity-[4%] py-[27px] lg:py-6 w-full flex items-center justify-between'>
+        <Link href='/posters'>
+          <div className='cursor-pointer border-b border-black border-opacity-[4%] py-[27px] lg:py-6 w-full flex items-center justify-between'>
             <p className='font-bold text-[28px] text-black opacity-[16%] lg:text-[56px]'>
               Posters
             </p>
             <ArrowNarrowRightIcon className='h-6 w-6 text-dark-blue opacity-[16%]' />
           </div>
         </Link>
-        <Link href='/'>
-          <div className='border-b border-black border-opacity-[4%] py-[27px] lg:py-6 w-full flex items-center justify-between'>
+        <Link href='/logos'>
+          <div className='cursor-pointer border-b border-black border-opacity-[4%] py-[27px] lg:py-6 w-full flex items-center justify-between'>
             <p className='font-bold text-[28px] text-black opacity-[16%] lg:text-[56px]'>
               Logos
             </p>
