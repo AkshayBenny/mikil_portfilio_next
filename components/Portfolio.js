@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import PortfolioCard from './PortfolioCard'
 
@@ -16,9 +17,10 @@ const Portfolio = () => {
           title='WhatsApp Folder Feature'
           desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
           lorem non feugiat egestas amet.'
-          link='/'
+          link='/projects/whatsapp-folder-feature'
           image='/one.png'
         />
+
         <PortfolioCard
           order={2}
           title='WhatsApp Folder Feature'
