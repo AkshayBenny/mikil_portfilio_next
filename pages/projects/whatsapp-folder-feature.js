@@ -1,4 +1,4 @@
-import { ArrowDownIcon } from '@heroicons/react/outline'
+import { ArrowDownIcon, ArrowRightIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 import React from 'react'
 import Header from '../../components/Header'
@@ -239,6 +239,54 @@ const whatsappFolderFeature = () => {
                 src={`/projects/whatsapp-folder-feature/six.png`}
                 alt='icon'
               />
+            </div>
+          </div>
+        </div>
+        {/* Other works */}
+        <div className='w-full pt-[80px] md:pt-[180px] px-[40px]'>
+          <h1 className='text-center font-semibold text-2xl text-dark-blue md:text-[40px] pb-12 md:pb-[72px]'>
+            Other works
+          </h1>
+          <div className='md:flex space-y-[36px] justify-center gap-16'>
+            <div className='relative'>
+              <div className='md:hidden absolute bg-black opacity-[64%] z-40 w-full h-full left-0 bottom-0'></div>
+              <div className='md:hidden absolute z-50 w-full h-full left-0 bottom-0 p-[22px] flex flex-col justify-end '>
+                <h1 className='text-white text-[13px] font-semibold opacity-[64%] pb-[9px]'>
+                  Case Study
+                </h1>
+                <h2 className='font-bold text-white text-[15px] pb-[13px]'>
+                  Whatsapp Folder Feature
+                </h2>
+                <p className='text-white text-[10px] font-medium opacity-80 pb-[13px]'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Ultrices lorem non feugiat egestas amet.
+                </p>
+                <button className='flex items-center justify-center rounded-[4px] opacity-100 bg-white text-dark-blue px-4 py-3 w-fit gap-[9px]'>
+                  <p className='font-bold text-[14px]'>View more</p>
+                  <ArrowRightIcon className='h-5' />
+                </button>
+              </div>
+              <img src='/two.png' alt='one' className='w-full object-cover ' />
+            </div>
+            <div className='relative'>
+              <div className='md:hidden absolute bg-black opacity-[64%] z-40 w-full h-full left-0 bottom-0'></div>
+              <div className='md:hidden absolute z-50 w-full h-full left-0 bottom-0 p-[22px] flex flex-col justify-end '>
+                <h1 className='text-white text-[13px] font-semibold opacity-[64%] pb-[9px]'>
+                  Case Study
+                </h1>
+                <h2 className='font-bold text-white text-[15px] pb-[13px]'>
+                  Whatsapp Folder Feature
+                </h2>
+                <p className='text-white text-[10px] font-medium opacity-80 pb-[13px]'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Ultrices lorem non feugiat egestas amet.
+                </p>
+                <button className='flex items-center justify-center rounded-[4px] opacity-100 bg-white text-dark-blue px-4 py-3 w-fit gap-[9px]'>
+                  <p className='font-bold text-[14px]'>View more</p>
+                  <ArrowRightIcon className='h-5' />
+                </button>
+              </div>
+              <img src='/one.png' alt='one' className='w-full object-cover ' />
             </div>
           </div>
         </div>
