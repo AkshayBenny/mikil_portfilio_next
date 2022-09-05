@@ -7,10 +7,7 @@ import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   return (
-    <div className='text-dark-blue relative '>
-      <div className='w-full sticky top-0 left-0 z-50'>
-        <Header />
-      </div>
+    <div className='text-dark-blue'>
       <Hero />
       <Portfolio />
       <Other />
