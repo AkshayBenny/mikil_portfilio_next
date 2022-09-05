@@ -1,18 +1,31 @@
 import { ArrowNarrowRightIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 import Link from 'next/link'
 const PortfolioCard = ({ title, desc, link, image, order }) => {
   return (
-    <div
-      className={`lg:flex items-center justify-center gap-8 px-[40px] lg:px-16 ${
-        order % 2 === 0 && 'flex-row-reverse'
-      }`}
-    >
-      <img
-        src={image}
-        alt='one'
-        className='w-full object-cover pb-8 lg:pb-0 lg:max-w-[620px] lg:max-h-[490px]'
-      />
-      <div className='w-full lg:max-w-[620px] '>
+    <div className='max-w-[1500px] mx-auto lg:grid grid-cols-2 items-center gap-x-8 px-[40px] lg:px-16 col-span-1'>
+      <div className={`hidden lg:grid ${order % 2 === 0 && 'order-2'}`}>
+        <Image
+          priority
+          src={image}
+          alt='one'
+          height='490px'
+          width='620px'
+          objectFit='cover'
+          layout='responsive'
+        />
+      </div>
+      <div className='grid lg:hidden'>
+        <Image
+          priority
+          src={image}
+          alt='one'
+          height='1500%'
+          width='1500%'
+          objectFit='contain'
+        />
+      </div>
+      <div className='lg:max-w-[620px] '>
         <h1 className='font-medium lg:font-semibold text-[18px] lg:text-[16px] text-black pb-4'>
           CASE STUDY
         </h1>
