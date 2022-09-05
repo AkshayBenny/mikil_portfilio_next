@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='px-6 h-screen flex  items-center '>
+    <section id='home' className='px-6 h-screen flex  items-center '>
       <div className='mx-auto'>
         <div className=' flex flex-col items-start lg:items-center'>
           <h1 className='font-semibold text-[56px] leading-[66px] tracking-[-1.25px]'>
@@ -21,7 +21,7 @@ const Hero = () => {
           <div className='text-light-blue'>Scroll Down</div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

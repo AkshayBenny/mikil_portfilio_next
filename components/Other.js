@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { ArrowNarrowRightIcon } from '@heroicons/react/outline'
 const Other = () => {
   return (
-    <div className='lg:flex items-center justify-center gap-9 px-[40px] lg:px-16 pt-[104px] lg:pt-[100px]'>
+    <section id='other' className='lg:flex items-center justify-center gap-9 px-[40px] lg:px-16 pt-[104px] lg:pt-[100px]'>
       <div className='  lg:max-w-[620px] w-full'>
         <h1 className='text-lg lg:text-2xl text-light-blue pb-12 lg:pb-[72px]'>
           What Else I Do?
@@ -39,7 +39,7 @@ const Other = () => {
           <img src='/other/otherThree.png' alt='' />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

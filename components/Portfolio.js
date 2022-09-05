@@ -4,7 +4,7 @@ import PortfolioCard from './PortfolioCard'
 
 const Portfolio = () => {
   return (
-    <div>
+    <section id='portfolio'>
       <h1 className='font-normal text-light-blue lg:text-2xl tracking-[-0.25px] text-lg text-center'>
         Portfolio
       </h1>
@@ -38,7 +38,7 @@ const Portfolio = () => {
           image='/three.png'
         />
       </div>
-    </div>
+    </section>
   )
 }
 

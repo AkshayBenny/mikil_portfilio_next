@@ -28,7 +28,7 @@ export default function Testimonials() {
   }
   return (
     <>
-      <div className='flex items-center justify-between px-10 lg:px-16 pb-[72px] mt-[100px]'>
+      <section id='testimonial' className='flex items-center justify-between px-10 lg:px-16 pb-[72px] mt-[100px]'>
         <div>
           <p className=' text-light-blue font-normal text-lg lg:text-2xl pb-1 tracking-[-0.25px] lg:tracking-none'>
             Happy clients
@@ -65,7 +65,7 @@ export default function Testimonials() {
             />
           </button>
         </div>
-      </div>
+      </section>
       <div className='w-full pl-[40px] lg:pl-[64px]'>
         <Swiper
           freeMode={true}

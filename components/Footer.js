@@ -5,7 +5,7 @@ import Linkedin from '../public/logos/linkedin-fill.svg'
 
 const Footer = () => {
   return (
-    <div className='pt-[120px] lg:pt-[148px] px-10 lg:px-16'>
+    <section id='contact' className='pt-[120px] lg:pt-[148px] px-10 lg:px-16'>
       <h1 className='text-light-blue text-lg lg:text-2xl font-normal tracking-[-0.25px] lg:tracking-0 text-center'>
         Contact me
       </h1>
@@ -32,7 +32,7 @@ const Footer = () => {
           </span>
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 

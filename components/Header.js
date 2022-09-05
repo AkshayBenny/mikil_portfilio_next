@@ -24,7 +24,7 @@ const Header = () => {
     <motion.header
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className={`relative z-10 bg-white ${
+      className={`relative bg-white bg-opacity-50 z-10 backdrop-blur-3xl ${
         isOpen ? ' dark:bg-black' : 'bg-none'
       }`}
     >
@@ -51,7 +51,7 @@ const Header = () => {
           <div className='flex items-center justify-between gap-4 font-semibold'>
             <div className='relative group'>
               <a
-                href='#project'
+                href='#home'
                 className='font-display max-w-sm text-base font-semibold leading-tight'
               >
                 <span className='link  opacity-[50%] group-hover:opacity-100 lg:link-underline  dark:link-underline-white link-underline-black  pb-1 transition'>
@@ -61,7 +61,7 @@ const Header = () => {
             </div>
             <div className='relative group'>
               <a
-                href='#other'
+                href='#portfolio'
                 className='font-display max-w-sm text-base font-semibold leading-tight'
               >
                 <span className='link opacity-[50%] group-hover:opacity-100 lg:link-underline dark:link-underline-white link-underline-black  pb-1'>
