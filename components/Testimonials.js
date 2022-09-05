@@ -14,13 +14,17 @@ import TestimonialCard from './TestimonialCard'
 
 export default function Testimonials() {
   const [swiperRef, setSwiperRef] = useState(null)
+  const [end, setEnd] = useState(false)
+  const [beginning, setBeginning] = useState(true)
 
   const prevHandler = () => {
     swiperRef.slidePrev()
+    setEnd(false)
   }
 
   const nextHandler = () => {
     swiperRef.slideNext()
+    setBeginning(false)
   }
   return (
     <>
@@ -35,30 +39,42 @@ export default function Testimonials() {
         </div>
         <div className='flex items-center justify-center gap-3'>
           <button
+            disabled={beginning}
             onClick={prevHandler}
-            className='rounded-full bg-btn-dark-blue-bg px-4 lg:px-6 py-2 lg:py-3'
-
-            // className='rounded-full bg-btn-grey-bg px-4 lg:px-6 py-2 lg:py-3'
+            className={`rounded-full ${
+              beginning
+                ? 'bg-btn-grey-bg cursor-not-allowed'
+                : 'bg-btn-dark-blue-bg '
+            } px-4 lg:px-6 py-2 lg:py-3`}
           >
-            {/* <ArrowNarrowLeftIcon className='text-black w-4 lg:w-6 ' /> */}
-            <ArrowNarrowLeftIcon className='text-white w-4 lg:w-6 ' />
+            <ArrowNarrowLeftIcon
+              className={`text-black w-4 lg:w-6 ${
+                beginning ? ' text-black' : 'text-white'
+              }`}
+            />
           </button>
           <button
             onClick={nextHandler}
-            className='rounded-full bg-btn-dark-blue-bg px-4 lg:px-6 py-2 lg:py-3'
+            disabled={end}
+            className={`rounded-full  px-4 lg:px-6 py-2 lg:py-3 ${
+              end ? 'bg-btn-grey-bg cursor-not-allowed' : 'bg-btn-dark-blue-bg '
+            }`}
           >
-            <ArrowNarrowRightIcon className='text-white w-4 lg:w-6 ' />
+            <ArrowNarrowRightIcon
+              className={`${end ? 'text-black' : 'text-white'} w-4 lg:w-6 `}
+            />
           </button>
         </div>
       </div>
-      <div className='w-full ml-[40px] lg:ml-[64px]'>
+      <div className='w-full pl-[40px] lg:pl-[64px]'>
         <Swiper
           freeMode={true}
           modules={[FreeMode]}
           navigation={true}
           className='mySwiper'
           onSwiper={(swiper) => setSwiperRef(swiper)}
-          onSlideChange={(change) => console.log(change)}
+          onReachEnd={() => setEnd(true)}
+          onReachBeginning={() => setBeginning(true)}
           breakpoints={{
             0: {
               slidesPerView: 1.1,
