@@ -13,7 +13,7 @@ const whatsappFolderFeature = () => {
     'six.png',
   ]
   return (
-    <main>
+    <main className=''>
       {/* hero-section of project page */}
       <div className='lg:flex px-[40px] mx-auto lg:px-[124px] items-center flex-row-reverse w-full justify-between gap-12'>
         <div className='hidden w-full lg:flex justify-end lg:ml-auto'>
@@ -41,7 +41,7 @@ const whatsappFolderFeature = () => {
             Freelance Project
           </h1>
           <h2 className='font-bold lg:font-semibold text-[28px] lg:text-[56px] text-dark-blue'>
-            Airline Booking
+            WhatsApp Folder
           </h2>
           <p className='font-normal text-base leading-[26px] lg:leading-[33px] lg:text-[20px] opacity-[64%] '>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -107,42 +107,90 @@ const whatsappFolderFeature = () => {
       {/* 01 */}
       <div className='mt-[80px] lg:mt-[180px] px-[40px] lg:px-[164px]'>
         <p className='font-bold text-2xl text-light-blue'>01</p>
-        <h1 className='font-semibold text-[56px] text-dark-blue'>Empathize</h1>
+        <h1 className='font-semibold text-[56px] text-dark-blue'>Research</h1>
         <div className='mt-16 space-y-[64px]'>
           <div className='flex flex-col lg:flex-row lg:justify-between'>
             <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404]'>
               User Research
             </h3>
             <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
-              Conducted a user research by sending a survey link to some
-              selected participants from different age categories to investigate
-              the real world opinions on WhatsApp. This is done with the help of
-              the Maze tool.
+              Conducted a user research by interviewing some selected
+              participants from different age categories to investigate the real
+              world opinions on WhatsApp. The main issue highlighted by the
+              users is that sometimes they are not able to keep up eith the
+              imortant messages.
             </p>
+          </div>
+          <div className='mt-16'>
+            <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404] '>
+              Persona
+            </h3>
+            <img
+              className='w-full mt-[24px] lg:mt-[36px] object-contain align-top block
+            '
+              src={`/projects/whatsapp-folder-feature/four.png`}
+              alt='hero-image'
+            />
           </div>
           <div className='flex flex-col lg:flex-row lg:justify-between'>
             <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404]'>
               Market Research
             </h3>
-            <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
-              For athletes, high altitude produces two contradictory effects on
-              performance. For explosive events (sprints up to 400 metres, long
-              jump, triple jump) the reduction in atmospheric pressure means
-              there is less resistance from the atmosphere and the
-              athlete&apos;s performance will generally be better at high
-              altitude.
-            </p>
+            <div className='flex flex-col'>
+              <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
+                I looked into the most common chatting app which people around
+                me use, which is the Telegram messenger app and Signal.
+              </p>
+              <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
+                The majority of them no longer use WhatsApp and instead use
+                alternative messaging applications. Whatsapp is now evolving
+                into a casual mobile chatting programme, while other messaging
+                services are more socializing networking. Additionally, I learn
+                that other applications include tools for organising and
+                prioritising their chats and messages.
+              </p>
+            </div>
+          </div>
+          <div className='flex flex-col lg:flex-row lg:justify-between'>
+            <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404]'>
+              Takeaways
+            </h3>
+            <div className='flex flex-col'>
+              <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
+                After the market research I find that the whatsapp is missing an
+                effective way to organize the chats and messages.
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
+      <div className='mt-[80px] lg:mt-[180px] px-[40px] lg:px-[164px]'>
+        <h1 className='font-semibold text-[56px] text-dark-blue'>Problem</h1>
+        <div className='mt-16'>
+          <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
+            I combined the information from my market and user research to
+            pinpoint a problem to address:
+          </p>
+          <p className='text-black opacity-80 font-bold text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
+            It&apos;s hard to organize and keep up with messages on Whatsapp.
+            Also their is chance in missing important messages.
+          </p>
+        </div>
+      </div>
       {/* 02 */}
       <div className='mt-[80px] lg:mt-[180px] px-[40px] lg:px-[164px]'>
         <p className='font-bold text-2xl text-light-blue'>02</p>
-        <h1 className='font-semibold text-[56px] text-dark-blue'>Define</h1>
+        <h1 className='font-semibold text-[56px] text-dark-blue'>Solution</h1>
         <div className='mt-16'>
-          <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404] '>
-            Empathy Map
+          <p className='text-black opacity-80 font-bold text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
+            I use actions that people are already familiar with rather than
+            presenting a brand-new functionality for them to understand. To
+            lower cognitive strain, I merged the ideas of starring messages and
+            whatsapp group.
+          </p>
+          <h3 className='font-medium pt-[64px] text-[20px] lg:text-[32px] text-[#040404] '>
+            Information Architecture
           </h3>
           <img
             className='w-full mt-[24px] lg:mt-[36px] object-contain align-top block
@@ -151,62 +199,24 @@ const whatsappFolderFeature = () => {
             alt='hero-image'
           />
         </div>
-        <div className='mt-16'>
-          <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404] '>
-            Presona
-          </h3>
-          <img
-            className='w-full mt-[24px] lg:mt-[36px] object-contain align-top block
-            '
-            src={`/projects/whatsapp-folder-feature/four.png`}
-            alt='hero-image'
-          />
-          <div className='mt-16 space-y-[64px]'>
-            <div className='flex flex-col lg:flex-row lg:justify-between'>
-              <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404]'>
-                Problem Statement
-              </h3>
-              <div>
-                <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
-                  I combined the data from my user and market research to
-                  identified a problem to focus on:
-                </p>
-                <p className='font-bold text-lg lg:text-2xl text-black opacity-80 pt-8'>
-                  It&apos;s hard to keep up with messages on Whatsapp.
-                </p>
-              </div>
-            </div>
-            <div className='flex flex-col lg:flex-row lg:justify-between'>
-              <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404]'>
-                Solution
-              </h3>
-              <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
-                I use actions that people are already familiar with rather than
-                presenting a brand-new functionality for them to understand. To
-                lower cognitive strain, I merged the ideas of starring messages.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* 03 */}
       <div className='mt-[80px] lg:mt-[180px] px-[40px] lg:px-[164px]'>
         <p className='font-bold text-2xl text-light-blue'>03</p>
-        <h1 className='font-semibold text-[56px] text-dark-blue'>Ideate</h1>
+        <h1 className='font-semibold text-[56px] text-dark-blue'>
+          Low Fidelity Sketchs
+        </h1>
         <p className='font-normal text-base leading-[26px] lg:leading-[33px] lg:text-[20px] opacity-[64%] '>
-          I recruited two participants for my brainstorming session using Miro,
-          a real-time whiteboard. We concluded to add a completely new feature —
-          bookmarks.
+          I started my design process by making low fidelity sketch. I took
+          inspiration from the existing WhatsApp interface and functionality. I
+          then added a few of my own concepts to create a user-friendly
+          interface.
         </p>
         <div className='flex flex-col lg:flex-row lg:justify-between mt-16'>
           <h3 className='font-medium text-[20px] lg:text-[32px] text-[#040404]'>
-            Style Guide
+            Low fidelity wireframe
           </h3>
-          <p className='text-black opacity-80 font-normal text-lg lg:text-2xl leading-[28px] lg:leading-[40px] tracking-[-0.25px] lg:tracking-normal pt-4 lg:pt-0 max-w-[705px]'>
-            I use actions that people are already familiar with rather than
-            presenting a brand-new functionality for them to understand.
-          </p>
         </div>
         <img
           className='w-full mt-[24px] lg:mt-[120px] object-contain 
