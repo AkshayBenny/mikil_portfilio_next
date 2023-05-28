@@ -13,6 +13,7 @@ const PortfolioCard = ({ title, desc, link, image, order }) => {
           width='620px'
           objectFit='cover'
           layout='responsive'
+          className='rounded-[32px]'
         />
       </div>
       <div className='grid lg:hidden'>
