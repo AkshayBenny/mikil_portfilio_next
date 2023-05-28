@@ -1,5 +1,3 @@
-import React from 'react'
-
 const TestimonialCard = ({ testimonial, name, post, img }) => {
 	return (
 		<div className='h-full hover:bg-[#120055] group transition  flex flex-col justify-between  px-6 py-8 rounded-xl border border-black border-opacity-[12%]'>
