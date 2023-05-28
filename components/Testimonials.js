@@ -29,7 +29,7 @@ export default function Testimonials() {
 	return (
 		<>
 			<section
-				id='testimonial'
+				id='testimonials'
 				className='flex items-center justify-between px-10 lg:px-16 pb-[72px] mt-[100px]'>
 				<div>
 					<p className=' text-light-blue font-normal text-lg lg:text-2xl pb-1 tracking-[-0.25px] lg:tracking-none'>
