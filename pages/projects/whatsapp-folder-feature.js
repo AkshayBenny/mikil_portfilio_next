@@ -13,7 +13,7 @@ const whatsappFolderFeature = () => {
     'six.png',
   ]
   return (
-    <main className=''>
+    <main className='max-w-[1400px] mx-auto'>
       {/* hero-section of project page */}
       <div className='lg:flex px-[40px] mx-auto lg:px-[124px] items-center flex-row-reverse w-full justify-between gap-12'>
         <div className='hidden w-full lg:flex justify-end lg:ml-auto'>
