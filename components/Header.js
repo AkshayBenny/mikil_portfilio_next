@@ -41,7 +41,7 @@ const Header = () => {
 					<div className='flex items-center justify-between gap-4 font-semibold'>
 						<div className='relative group'>
 							<a
-								href='#home'
+								href='https://www.sreemikil.com/#home'
 								className='font-display max-w-sm text-base font-semibold leading-tight'>
 								<span className='link  opacity-[50%] group-hover:opacity-100 lg:link-underline  dark:link-underline-white link-underline-black  pb-1 transition'>
 									Home
@@ -50,7 +50,7 @@ const Header = () => {
 						</div>
 						<div className='relative group'>
 							<a
-								href='#portfolio'
+								href='https://www.sreemikil.com/#portfolio'
 								className='font-display max-w-sm text-base font-semibold leading-tight'>
 								<span className='link opacity-[50%] group-hover:opacity-100 lg:link-underline dark:link-underline-white link-underline-black  pb-1'>
 									Portfolio
@@ -59,16 +59,16 @@ const Header = () => {
 						</div>
 						<div className='relative group'>
 							<a
-								href='#testimonials'
+								href='https://www.sreemikil.com/#testimonials'
 								className='font-display max-w-sm text-base font-semibold leading-tight'>
 								<span className='link opacity-[50%] group-hover:opacity-100 lg:link-underline  dark:link-underline-white link-underline-black  pb-1'>
-								Testimonials
+									Testimonials
 								</span>
 							</a>
 						</div>
 						<div className='relative group'>
 							<a
-								href='#contact'
+								href='https://www.sreemikil.com/#contact'
 								className='font-display max-w-sm text-base font-semibold leading-tight'>
 								<span className='link opacity-[50%] group-hover:opacity-100 lg:link-underline   dark:link-underline-white link-underline-black pb-1'>
 									Contacts
